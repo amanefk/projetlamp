@@ -3,7 +3,7 @@
 try{
 
 	$user = "user";
-	$pass = "xXmGSJud0EJmbC0s";
+	$pass = "motdepasse";
 	$bdd = new PDO('mysql:host=localhost;dbname=lampbdd', $user, $pass);
 
 }catch(PDOException $e){
